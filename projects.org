@@ -1,0 +1,28 @@
+#+TITLE: Superfly's projects 
+#+AUTHOR: Superfly Johnson
+#+DESCRIPTION: Superfly's current and finished projects. 
+#+STARTUP: showeverything
+
+* TABLE OF CONTENTS                                                     :TOC:
+
+* Description
+This file is dedicated to my current and WIP projects.
+
+* [[https://github.com/Superfly-Johnson/Configurations][Portable configurations]]
+I'd like my configurations to work on any system I have following simple executing a little ./install.sh script, or the equivalent on windows. Still WIP, but I'm getting there. 
+Currently I have a Nix configuration and my emacs configuration finalized.
+
+** .bashrc
+I want a portable .bashrc that would work roughly the same on any Unix system.
+** SSH integration with keepassxc's automatic configuration
+A SystemD unit file and a little script to configure KeepassXC's dotfile to properly find the right paths to the sockets would be extremely nice.
+
+* Containers
+** Nix-based OpenLPAD server container
+This could be used to integrate with KDE's Kontact suite while on linux systems. 
+** Nix-based Sieve server container
+This would be extremely useful as it'd integrate both with Claws Mail and Kmail's filtering system, and it could be used to showcase the usefulness of mail filtering languages.
+
+* Websites
+** Cloud-storage comparison website
+A little website made with Django that would compare pricing for various websites. This requires a web scraper, a SQL backend and possibly a container to be made later, where the project would be downloaded as a submodule. 
